@@ -1,0 +1,183 @@
+I want you to build a complete, fully-working Daily Motion / Habit Tracking App.
+The app must include both frontend and backend. Follow all instructions carefully.
+
+🔷 1. TECHNOLOGY REQUIREMENTS
+
+Use React + Vite for frontend
+
+Use Tailwind CSS for styling
+
+Use Node.js + Express for backend
+
+Use MongoDB (via Mongoose) for database
+
+Implement localStorage fallback if no backend runs
+
+The app must run perfectly on Replit
+
+🔷 2. APP PURPOSE
+
+The app should allow the user to:
+
+Track all daily activities (work, study, sleep, exercise, etc.)
+
+Add time spent on each activity
+
+View daily, weekly, and monthly statistics
+
+Get notifications/reminders
+
+See a personalized dashboard showing productivity patterns
+
+🔷 3. UI REQUIREMENTS (VERY IMPORTANT)
+Aesthetic + Modern UI
+
+Fully modern and aesthetic look
+
+Soft gradients, glass-morphism, smooth edges
+
+Animated transitions with Framer-Motion
+
+Friendly color palette (blue, purple, teal)
+
+Dark mode + Light mode
+
+Fully responsive (mobile first)
+
+Typography
+
+Use "Poppins" or "Inter" as main font
+
+Clean, minimal spacing
+
+Icons from Lucide Icons or Heroicons
+
+Screens the UI must include
+
+Onboarding Screen
+
+Login / Register
+
+Home Dashboard
+
+Daily Motion Input Screen
+
+Weekly Report
+
+Monthly Analytics
+
+Settings (with notifications toggle)
+
+User Profile
+
+🔷 4. FEATURES REQUIRED
+✔ DAILY ACTIVITY TRACKING
+
+User selects activity OR creates custom activities
+
+Enters time (minutes/hours)
+
+App auto-summaries daily total
+
+Show pie chart of day’s time usage
+
+Show streak counter
+
+✔ WEEKLY ANALYTICS
+
+Hours per activity for current week
+
+Compare to previous week
+
+Show bar chart + insights (like "You studied 20% more")
+
+✔ MONTHLY INSIGHTS
+
+Detailed month-view calendar
+
+Show productivity heatmap
+
+"Most productive activity"
+
+"Least focused area"
+
+✔ SMART SUGGESTIONS (AI-Like Summary)
+
+Generate suggestions like:
+
+"You spent too much time on phone"
+
+"Try sleeping earlier"
+
+"Add 30 min exercise for better balance"
+
+✔ NOTIFICATIONS
+
+Use browser notifications
+
+Daily reminder at user-selected time
+
+Weekly summary notification
+
+Monthly review reminder
+
+✔ DASHBOARD
+
+Show:
+
+Today's progress
+
+Weekly graph
+
+Monthly card summary
+
+Best activity
+
+Time wasted vs productive time
+
+🔷 5. BACKEND API ENDPOINTS
+POST /register
+POST /login
+POST /activity/add
+GET /activity/daily
+GET /activity/weekly
+GET /activity/monthly
+
+Use JWT for login and protect routes.
+
+🔷 6. EXTRA REQUIREMENTS
+
+Add loading animations
+
+Make charts with Recharts
+
+Smooth transitions
+
+Clean code structure
+
+Comment every function so code is readable
+
+Provide instructions to run the app
+
+🔷 7. FINAL DELIVERABLE
+
+You must generate:
+
+Complete frontend + backend folder structure
+
+All required React components
+
+All pages & screens
+
+All API routes
+
+Full UI with Tailwind
+
+Charts + analytics
+
+Notification code
+
+A final README with run steps
+
+Start building now. Generate full code and project structure step by step.
+Do not ask questions — directly begin generating the complete working app.
